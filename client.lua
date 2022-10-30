@@ -97,9 +97,9 @@ function SpawnNPC()
                         Wait(0)
                         if distance < 5 then       
                             if createdped then 
-                            TriggerServerEvent('legacy_medic:reviveplayer', source)
                             Wait(5000)
                             DeleteEntity(createdped)
+				TriggerServerEvent('legacy_medic:reviveplayer', source)
                             end
                         end
 
