@@ -19,7 +19,7 @@ AddEventHandler("legacy_medic:reviveplayer", function()
         TriggerClientEvent('legacy_medic:revive', _source)
     else
 
-        VorpCore.NotifyRightTip(_source,Config.Lanuage.notenough..Config.doctors.amount,4000)
+        VorpCore.NotifyRightTip(_source,Config.Language.notenough..Config.doctors.amount,4000)
 
     end
 end)
