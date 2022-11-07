@@ -79,7 +79,7 @@ function SpawnNPC()
 						Wait(500)
                     else
                         DeleteEntity(createdped)
-                        VORPcore.NotifyRightTip(Confi.Language.doctordied,4000)
+                        VORPcore.NotifyRightTip(Config.Language.doctordied,4000)
                         createdped = 0
 					end
 
